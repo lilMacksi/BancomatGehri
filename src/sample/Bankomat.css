@@ -1,0 +1,48 @@
+GridPane {
+-fx-background-color: red;
+}
+
+.button{
+    -fx-font-size: 20;
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-background-insets: 1;
+}
+
+.button:hover{
+    -fx-background-color: lightgrey;
+    -fx-border-image-insets: 0;
+    -fx-border-radius: 0;
+}
+
+.button.cancel {
+   -fx-background-color: #FF0000 ;
+}
+
+.button.cancel:hover {
+      -fx-background-color: #D80000  ;
+}
+
+ComboBox {
+
+     -fx-background-color: white;
+     -fx-background-radius: 0;
+     -fx-background-insets: 1;
+}
+
+
+.button.clear {
+   -fx-background-color: #ffff00;
+}
+
+.button.clear:hover {
+   -fx-background-color: #cccc00;
+}
+
+.button.enter {
+   -fx-background-color: #00cc00;
+}
+
+.button.enter:hover {
+   -fx-background-color: #009900;
+}
